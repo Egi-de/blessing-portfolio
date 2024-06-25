@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="ikmages/bless_logo-removebg-preview 1.svg" alt="this is a logo"></div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                  </svg> -->
+            </ul>
+        </nav>
+    </header>
+    <section class="hero section">
+        <main>
+            <div class="title">
+                <h1 style="color: whitesmoke; text-align:center;font-size:40px;">Hello!,I am</h1>
+                <h1 style="color: wheat; text-align:center;font-size:80px;"><span class="web">Web</span>Designer.</h1>
+            </div>
+            
+            <div class="side-bar2">
+                <div class="project">
+                    <h1 style="font-size: 50px;;"><b>700+</b></h1>
+                    <p style="margin-bottom:20px">PROJECT<br> COMPLETED </p>
+                </div>
+                <div class="who-am-i">
+                    <img src="ikmages/Group222.svg" alt="butterfly">
+                    <p>A Freelance Designer and Developer based in RWANDA. <br> I strives to build immersive and
+                        beautiful
+                        web applications through carefully crafted used-centric design.</p>
+
+                </div>
+                <div class="text-circle">
+                    <div class="scroll-down">
+                        <svg class="mouse-arrow-down" xmlns="http://www.w3.org/2000/svg" width="24" height="40"
+                            viewBox="0 0 24 40" fill="none">
+                            <g clip-path="url(#clip0_37_162)">
+                                <path d="M12 5L12 35" stroke="#FFDB59" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path d="M16 31L12 35" stroke="#FFDB59" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path d="M8 31L12 35" stroke="#FFDB59" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_37_162">
+                                    <rect width="24" height="40" fill="white"></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="scroll">
+                        <h1>SCROLL <br> DOWN</h1>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="container">
+                <img src="ikmages/1.png" alt="KIRABO blessin" class="img">
+                <div>
+                    <img src="ikmages/Polygon 1 .svg" alt="polygon-arrow" class="polygon-arrow">
+                    <div class="text">KIRABO blessing </div>
+                    <img src="ikmages/0000000.svg" alt="arrow-vector" class="img-arrow">
+
+                </div>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const textDiv = document.querySelector('.text');
+                    const polygonArrow = document.querySelector('.polygon-arrow');
+
+                    window.addEventListener('scroll', () => {
+                        if (window.scrollY > 50) { // Adjust this value as needed
+                            textDiv.classList.add('scrolled');
+                            polygonArrow.classList.add('scrolled');
+                        } else {
+                            textDiv.classList.remove('scrolled');
+                            polygonArrow.classList.remove('scrolled');
+                        }
+                    });
+                });
+            </script>
+
+        </main>
+
+
+        <div class="side-bar">
+            <div class="butterfly-arrow-svg">
+                <img src="ikmages/Arrow 1.svg" alt="" width="10px">
+                <img src="ikmages/Group 1-1.svg" alt="" width="15px">
+            </div>
+            <div class="butterfly-arrow-svg-rotated">
+                <img src="ikmages/Arrow 1.svg" alt="" width="10px ">
+                <img src="ikmages/Group 1-1.svg" alt="" width="15px">
+            </div>
+            <div class="icon-container">
+                <a href="https://www.facebook.com" class="icon-large" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" class="icon-large" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" class="icon-large" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" class="icon-large" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div id="worked_box" style="transform: translate3d(-17.4167px, -12.2px, 0px);">
+            <div class="worked-box aos-init aos-animate" data-aos="fade-right">
+                <p class="worked-more">Worked with more than 100 people</p>
+                <div class="client-img-main position-relative">
+                    <img class="client-img client-img1" src="ikmages/stranger.jpeg" alt="clients-img1">
+                    <img class="client-img client-img2" src="ikmages/0.jpg" alt="clients-img2">
+                    <img class="client-img client-img3" src="ikmages/01.png" alt="clients-img3">
+                    <img class="client-img client-img4" src="ikmages/03.png" alt="clients-img4">
+                    <p class="worked-more worked-more2"> 100+ Clients</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <main>
+            <div>
+                <img class="kb" src="ikmages/000.png" alt="girl-img2" data-aos="fade-left">
+                <div class="hwlo">
+
+
+                    <div class="gg">
+
+                        <img class="years-img" src="ikmages/years-img.png" alt="years-img">
+                        <div class="digit">6</div>
+                        <div class="circle-text">YEARS OF<br> WORKING EXPERICE</div>
+                    </div>
+                </div>
+            </div>
+            <div class="awards">
+                <div class="award-circle-main aos-init aos-animate" data-aos="zoom-in">
+                    <div class="award-circle">
+                        <img src="ikmages/trophy.png" alt="trophy">
+                    </div>
+                    <div class="">
+                        <h1 class="independent">Independent Of The Year</h1>
+                        <p class="annual">Annual Awards 2025</p>
+                    </div>
+                </div>
+                <h2 class="self-taught" data-aos="fade-up">Hello! I’m <span>BLESSING</span> a
+                    self-taught &amp;
+                    award-winning<span> Web Designer &amp; Developer</span> with over <span>fifteen years of work
+                        experience</span>. I started in my children’s room and got pro at renowned <span>Ren
+                        Tech</span> Agencies.
+                </h2>
+                <p class="odio" data-aos="fade-up">Urna neque sollicitudin odio tempus eleifend est. Vestibulum
+                    dictum turpis diam arcu rutrum interdum aliquet iaculis.
+                </p>
+                <p class="explore-me">
+                    <a href="about.html#explore-me">EXPLORE ME
+                        <svg class="expo-arrow" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <g>
+                                <path d="M6.66669 16H25.3334" stroke="#FFDB59" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path d="M20 21.3333L25.3333 16" stroke="#FFDB59" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M20 10.6666L25.3333 16" stroke="#FFDB59" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </p>
+            </div>
+        </main>
+
+    </section>
+tb
+    <section>
+        <div class="Marquee-main overflow-hidden">
+            <h1 style="text-align:center;font-size:40px;margin-bottom:50px">Trusted by World Leading Brands</h1>
+            <div class="logos logos2">
+                <div class="logos-slide">
+                    <div class="marquee__content">
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo7.png"
+                                alt="brand-logo1">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo8.png"
+                                alt="brand-logo2">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo2.png"
+                                alt="brand-logo3">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo6.png"
+                                alt="brand-logo4">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo5.png"
+                                alt="brand-logo5">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo1.png"
+                                alt="brand-logo6">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo6.png"
+                                alt="brand-logo7">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo5.png"
+                                alt="brand-logo8">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="logos-slide">
+                    <div class="marquee__content">
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo4.png"
+                                alt="brand-logo1">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo1.png"
+                                alt="brand-logo2">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo5.png"
+                                alt="brand-logo3">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo4.png"
+                                alt="brand-logo4">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo6.png"
+                                alt="brand-logo5">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo5.png"
+                                alt="brand-logo6">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo6.png"
+                                alt="brand-logo7">
+                        </div>
+                        <div class="marquee-img-main">
+                            <img class="brand-logos"
+                                src="https://up2client.com/envato/biogi/freelancer/assets/images/brand-logo4.png"
+                                alt="brand-logo8">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="hh">
+        <main class="service">
+            <div>
+                <h2 style="padding: 0px 20px;">OUR SERVICES</h2>
+                <h1 style="color: wheat;"><span class="solutions">Solutions </span>We Provide</h2>
+                    <p style="padding: 20px;">Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit.
+                        Necessitatibus,<br> labore quia
+                        accusantium<br> deleniti possimus id earum, nemo beatae culpa <br>unde explicabo nesciunt
+                        cupiditate
+                        sunt <br>voluptatibus corporis qui quisquam eum pariatur.</p>
+                    <div class="shapes">
+                        <div class="triangle"></div>
+                        <div class="circle">
+                            <svg class="mouse-arrow-down" xmlns="http://www.w3.org/2000/svg" width="24" height="40"
+                                viewBox="0 0 24 40" fill="none">
+                                <g clip-path="url(#clip0_37_162)">
+                                    <path d="M12 5L12 35" stroke="#FFDB59" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M16 31L12 35" stroke="#FFDB59" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M8 31L12 35" stroke="#FFDB59" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_37_162">
+                                        <rect width="24" height="40" fill="white"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <a href="contact.html">CONTACT ME</a>
+                        </div>
+                        <div class="rectangle">
+                            <a href="portfolio.html">VIEW MY WORK</a>
+                        </div>
+                    </div>
+
+            </div>
+            <div class="rotating-butterfly">
+                <img src="ikmages/butterfly.svg" alt="butterfly">
+            </div>
+            <script>
+                window.addEventListener('scroll', () => {
+                    const butterfly = document.querySelector('.rotating-butterfly');
+                    butterfly.style.animation = `bounce 1s infinite alternate`;
+                });
+            </script><div class="design">
+                <div class="design-content active" id="content1">
+                    <h1>Visual Design</h1>
+                    <p>Project systematization is something I place a lot of emphasis on. <br>My passion is Design Systems.</p>
+                    <ul>
+                        <li>Interface Design</li>
+                        <li>Creating Design Systems</li>
+                        <li>UI Kits</li>
+                        <li>User Experience Development</li>
+                    </ul>
+                </div>
+                <div class="design-content" id="content2">
+                    <h1>Design Systems</h1>
+                    <p>Project systematization is something I place a lot of emphasis on. <br>My passion is Design Systems.</p>
+                    <ul>
+                        <li>Interface Design</li>
+                        <li>Creating Design Systems</li>
+                        <li>UI Kits</li>
+                        <li>User Experience Development</li>
+                    </ul>
+                </div>
+                <div class="design-content" id="content3">
+                    <h1>Web Design & Development</h1>
+                    <p>Project systematization is something I place a lot of emphasis on. <br>My passion is Design Systems.</p>
+                    <ul>
+                        <li>Interface Design</li>
+                        <li>Creating Design Systems</li>
+                        <li>UI Kits</li>
+                        <li>User Experience Development</li>
+                    </ul>
+                </div>
+                <div class="design-content" id="content4">
+                    <h1>Design Systems</h1>
+                    <p>Project systematization is something I place a lot of emphasis on. <br>My passion is Design Systems.</p>
+                    <ul>
+                        <li>Interface Design</li>
+                        <li>Creating Design Systems</li>
+                        <li>UI Kits</li>
+                        <li>User Experience Development</li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const contents = document.querySelectorAll('.design-content');
+                    let currentIndex = 0;
+        
+                    function showNextContent() {
+                        contents[currentIndex].classList.remove('active');
+                        currentIndex = (currentIndex + 1) % contents.length;
+                        contents[currentIndex].classList.add('active');
+                    }
+        
+                    setInterval(showNextContent, 4000);
+                });
+            </script>
+        </main>
+
+    </section>
+    <section class="slides">
+        <div class="header_full_sec overflow-hidden">
+            <div class="logos">
+                <div class="logos-slide">
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">User Interface</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">User Experience</div>
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">Branding</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">Marketing</div>
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">User Interface</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">User Experience</div>
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">Branding</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">Marketing</div>
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">User Interface</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">User Experience</div>
+                </div>
+                <div class="logos-slide">
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">User Interface</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">User Experience</div>
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">Branding</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">Marketing</div>
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">User Interface</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">User Experience</div>
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">Branding</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">Marketing</div>
+                    <div style="-webkit-text-stroke-color:#e0dfe3;" class="ticker__item">User Interface</div>
+                    <div style="color: rgb(72, 11, 98);" class="ticker__item ticker__item_dark">User Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-four overflow-hidden">
+        <div class="container">
+            <div class="skills-header aos-init aos-animate" data-aos="fade-up">
+                <h2 class="our-services my_skills">MY SKILLS</h2>
+                <h1 style="color: wheat;"><span class="solutions">MY </span>EXPERTISE</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-column">
+                    <div class="skills-box-main aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="ikmages/figma.png" alt="Figma">
+                        <div class="counter">
+                            <h3 class="count" data-count="96">96</h3>
+                            <p>FIGMA</p>
+                        </div>
+                    </div>
+                    <div class="skills-box-main aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="ikmages/diamond.png" alt="Sketch">
+                        <div class="counter">
+                            <h3 class="count" data-count="87">87</h3>
+                            <p>SKETCH</p>
+                        </div>
+                    </div>
+                    <div class="skills-box-main aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="ikmages/photoshop.png" alt="Photoshop">
+                        <div class="counter">
+                            <h3 class="count" data-count="85">85</h3>
+                            <p>PHOTOSHOP</p>
+                        </div>
+                    </div>
+                    <div class="skills-box-main aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="ikmages/illustrator.png" alt="Illustrator">
+                        <div class="counter">
+                            <h3 class="count" data-count="93">93</h3>
+                            <p>ILLUSTRATOR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-column">
+                    <div class="skills-box-main aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="ikmages/elementor.png" alt="Elementor">
+                        <div class="counter">
+                            <h3 class="count" data-count="86">86</h3>
+                            <p>ELEMENTOR</p>
+                        </div>
+                    </div>
+                    <div class="skills-box-main aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="ikmages/html-logo.png" alt="HTML5">
+                        <div class="counter">
+                            <h3 class="count" data-count="95">95</h3>
+                            <p>HTML5</p>
+                        </div>
+                    </div>
+                    <div class="skills-box-main aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="ikmages/js-logo.png" alt="JavaScript">
+                        <div class="counter">
+                            <h3 class="count" data-count="89">89</h3>
+                            <p>JAVASCRIPT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-column">
+                    <div class="skills-box-main aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="ikmages/wordpress.png" alt="WordPress">
+                        <div class="counter">
+                            <h3 class="count" data-count="98">98</h3>
+                            <p>WORDPRESS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="kirabo2"><img style="width: 150%;height:150%" src="ikmages/00000.png" alt=""></div>
+        <div class="vector2"><img src="ikmages/0000000.svg" alt=""></div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const counters = document.querySelectorAll('.count');
+            counters.forEach(counter => {
+                const updateCount = () => {
+                    const target = +counter.getAttribute('data-count');
+                    const count = +counter.innerText;
+                    const speed = 2000; // Adjust speed as needed
+                    const increment = target / speed;
+
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + increment);
+                        setTimeout(updateCount, 1);
+                    } else {
+                        counter.innerText = target;
+                    }
+                };
+
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            updateCount();
+                            observer.unobserve(counter);
+                        }
+                    });
+                }, {
+                    threshold: 0.5
+                });
+
+                observer.observe(counter);
+            });
+        });
+    </script>
+    <section class="projects">
+        <div class="container-project">
+            <h2 class="our-cases" data-aos="fade-up">DISCOVER OUR CASES</h2>
+            <div>
+                <h1 style="font-size: 80px;" class="latest-project">Latest Projects.</h1>
+            </div>
+            <div class="tab-header">
+                <div class="tab-bar" data-aos="fade-up">
+                    <button class="tab-button active" data-tab="tab1"><span class="tab-span">8</span>ALL</button>
+                    <button class="tab-button" data-tab="tab2"><span class="tab-span">2</span>CONTENT</button>
+                    <button class="tab-button" data-tab="tab3"><span class="tab-span">2</span>GALLERY</button>
+                    <button class="tab-button" data-tab="tab4"><span class="tab-span">1</span>HTML WORK</button>
+                    <button class="tab-button" data-tab="tab5"><span class="tab-span">1</span>FIGMA WORK</button>
+                </div>
+            </div>
+            <div class="tab-content active" id="tab1" data-aos="zoom-in">
+                <div class="tab-imgs-main">
+                    <div class="tab1sub grid">
+                        <a href="portfolio.html">
+                            <div class="effect-milo">
+                                <img class="tab-imgs" src="ikmages/-1.jpg" alt="tab-content-img">
+                                <p class="tab-content-text">HTML</p>
+                                <h2 class="tab-product-design">From Scratch</h2>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="tab1sub grid">
+                        <a href="portfolio.html">
+                            <div class="effect-milo">
+                                <img class="tab-imgs" src="ikmages/-12.png" alt="gallery-tab-img">
+                                <p class="tab-content-text">GALLERY</p>
+                                <h2 class="tab-product-design">DEsign Every Website </h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tab1sub grid">
+                        <a href="portfolio.html">
+                            <div class="effect-milo">
+                                <img class="tab-imgs" src="ikmages/-2.jpg" alt="yt-video-img">
+                                <p class="tab-content-text">YT VIDEO</p>
+                                <h2 class="tab-product-design">Product Development</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="tab2">
+                <div class="tab-imgs-main">
+                    <div class="tab1sub grid">
+                        <a href="portfolio.html">
+                            <div class="effect-milo">
+                                <img class="tab-imgs" src="ikmages/-13.jpg" alt="tab-content-img">
+                                <p class="tab-content-text">CONTENT</p>
+                                <h2 class="tab-product-design">Unique Product Design</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tab1sub grid">
+                        <a href="portfolio.html">
+                            <div class="effect-milo">
+                                <img class="tab-imgs" src="ikmages/-12.png" alt="tab-content-img2">
+                                <p class="tab-content-text">CONTENT</p>
+                                <h2 class="tab-product-design">Ecommerce Website UI</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="tab3">
+                <div class="tab-imgs-main">
+                    <div class="tab1sub grid">
+                        <a href="portfolio.html">
+                            <div class="effect-milo">
+                                <img class="tab-imgs" src="ikmages/-2.jpg" alt="tab-content-img">
+                                <p class="tab-content-text">GALLERY</p>
+                                <h2 class="tab-product-design">Unique Product Design</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tab1sub grid">
+                        <a href="portfolio.html">
+                            <div class="effect-milo">
+                                <img class="tab-imgs" src="ikmages/-12.png" alt="html-video-img">
+                                <p class="tab-content-text">GALLERY</p>
+                                <h2 class="tab-product-design">Ecommerce Website UI</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="tab4">
+                <div class="tab-imgs-main">
+                    <div class="tab1sub grid">
+                        <a href="portfolio.html">
+                            <div class="effect-milo">
+                                <img class="tab-imgs" src="ikmages/-1.jpg" alt="html-video-img">
+                                <p class="tab-content-text">HTML WORK</p>
+                                <h2 class="tab-product-design">Ecommerce Website UI</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="tab5">
+                <div class="tab-imgs-main">
+                    <div class="tab1sub grid">
+                        <a href="portfolio.html">
+                            <div class="effect-milo">
+                                <img class="tab-imgs" src="ikmages/-11.jpg" alt="figma-work-img">
+                                <p class="tab-content-text">FIGMA WORK</p>
+                                <h2 class="tab-product-design">Product Design Mockup</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const tabId = this.getAttribute('data-tab');
+
+                    // Remove active class from all buttons and content sections
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
+
+                    // Add active class to the clicked button and corresponding content section
+                    this.classList.add('active');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+        });
+    </script>
+
+
+    <section class="section-six overflow-hidden">
+        <div class="container">
+            <div class="testmonials">
+                <p class="our-services">TESTIMONIALS</p>
+                <h2 class="our-solution">What Our Clients Say</h2>
+                <div class="testimonial_slider">
+                    <!-- Testimonial Item 1 -->
+                    <div class="testimonial-item">
+                        <div class="great-work-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 40 30" fill="none">
+                                <g>
+                                    <path
+                                        d="M11.9903 8.97047L11.9834 8.98364L11.977 8.997C10.9357 11.1534 10.3315 13.3985 10.1705 15.7265L10.1087 16.6197L10.9897 16.7794L16.4359 17.7668V29H1V20.6818C1 15.4562 2.21666 11.3738 4.55213 8.33851C6.85551 5.3666 9.89607 3.01035 13.7015 1.27904L15.1132 3.79798C14.0057 5.37106 12.9651 7.09582 11.9903 8.97047ZM34.5544 8.97047L34.5475 8.98364L34.5411 8.997C33.4998 11.1534 32.8956 13.3985 32.7346 15.7265L32.6728 16.6197L33.5538 16.7794L39 17.7668V29H23.5641V20.6818C23.5641 15.4561 24.7808 11.3737 27.1163 8.33843C29.4197 5.36656 32.4602 3.01033 36.2656 1.27904L37.6773 3.79798C36.5698 5.37106 35.5292 7.09583 34.5544 8.97047Z"
+                                        stroke="#FF7D61" stroke-width="2"></path>
+                                </g>
+                            </svg>
+                            <h3>Great Work!</h3>
+                        </div>
+                        <p class="posuere">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis
+                            libero ac ex fermentum hendrerit.</p>
+                        <svg class="slider-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 33" fill="none">
+                            <path d="M630 1H100L70 31V1H0" stroke="#909090"></path>
+                        </svg>
+                        <div class="client_details">
+                            <img class="testimonial_client_img" src="ikmages/stranger.jpeg" alt="Client Image">
+                            <div>
+                                <h3  style="color: rgb(63, 155, 208);class="client-name">John Doe</h3>
+                                <p  class="studio">Doctor at Kanombe Hospital</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial Item 2 -->
+                    <div class="testimonial-item">
+                        <div class="great-work-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 40 30" fill="none">
+                                <g>
+                                    <path
+                                        d="M11.9903 8.97047L11.9834 8.98364L11.977 8.997C10.9357 11.1534 10.3315 13.3985 10.1705 15.7265L10.1087 16.6197L10.9897 16.7794L16.4359 17.7668V29H1V20.6818C1 15.4562 2.21666 11.3738 4.55213 8.33851C6.85551 5.3666 9.89607 3.01035 13.7015 1.27904L15.1132 3.79798C14.0057 5.37106 12.9651 7.09582 11.9903 8.97047ZM34.5544 8.97047L34.5475 8.98364L34.5411 8.997C33.4998 11.1534 32.8956 13.3985 32.7346 15.7265L32.6728 16.6197L33.5538 16.7794L39 17.7668V29H23.5641V20.6818C23.5641 15.4561 24.7808 11.3737 27.1163 8.33843C29.4197 5.36656 32.4602 3.01033 36.2656 1.27904L37.6773 3.79798C36.5698 5.37106 35.5292 7.09583 34.5544 8.97047Z"
+                                        stroke="#FF7D61" stroke-width="2"></path>
+                                </g>
+                            </svg>
+                            <h3>Great Service!</h3>
+                        </div>
+                        <p class="posuere">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque laudantium.</p>
+                        <svg class="slider-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 33" fill="none">
+                            <path d="M630 1H100L70 31V1H0" stroke="#909090"></path>
+                        </svg>
+                        <div class="client_details">
+                            <img class="testimonial_client_img" src="ikmages/03.png" alt="Client Image">
+                            <div>
+                                <h3  style="color: rgb(63, 155, 208);" class="client-name">ckello MEEKY</h3>
+                                <p class="studio">CEO of BK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial Item 3 -->
+                    <div class="testimonial-item">
+                        <div class="great-work-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 40 30" fill="none">
+                                <g>
+                                    <path
+                                        d="M11.9903 8.97047L11.9834 8.98364L11.977 8.997C10.9357 11.1534 10.3315 13.3985 10.1705 15.7265L10.1087 16.6197L10.9897 16.7794L16.4359 17.7668V29H1V20.6818C1 15.4562 2.21666 11.3738 4.55213 8.33851C6.85551 5.3666 9.89607 3.01035 13.7015 1.27904L15.1132 3.79798C14.0057 5.37106 12.9651 7.09582 11.9903 8.97047ZM34.5544 8.97047L34.5475 8.98364L34.5411 8.997C33.4998 11.1534 32.8956 13.3985 32.7346 15.7265L32.6728 16.6197L33.5538 16.7794L39 17.7668V29H23.5641V20.6818C23.5641 15.4561 24.7808 11.3737 27.1163 8.33843C29.4197 5.36656 32.4602 3.01033 36.2656 1.27904L37.6773 3.79798C36.5698 5.37106 35.5292 7.09583 34.5544 8.97047Z"
+                                        stroke="#FF7D61" stroke-width="2"></path>
+                                </g>
+                            </svg>
+                            <h3>Another Testimonial</h3>
+                        </div>
+                        <p class="posuere">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                            cubilia Curae; Pellentesque ac orci varius, dignissim nulla id, vestibulum enim.</p>
+                        <svg class="slider-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 33" fill="none">
+                            <path d="M630 1H100L70 31V1H0" stroke="#909090"></path>
+                        </svg>
+                        <div class="client_details">
+                            <img class="testimonial_client_img" src="ikmages/378063624_6572948712800926_2068556081037816870_n.jpg" alt="Client Image">
+                            <div>
+                                <h3 style="color: rgb(63, 155, 208);" class="client-name">Jane Smith</h3>
+                                <p class="studio">CEO of KIKUU</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="mobile-itemright-footer aos-init aos-animate" data-aos="fade-down">
+            <div class="footer-box-right">
+                <p class="mind-project">Have a project in your mind?</p>
+                <div class="view-work-circle btn btn1">
+                    <a href="contact.html" class="a1">CONTACT ME</a>
+                </div>
+                <div>
+                    <p class="contact_time">09 : 00 AM - 10 : 30 PM</p>
+                    <p class="monday">Monday to Saturday</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bg">
+            <div class="container footer-containe">
+                <div class="hekl">
+                    <div class="row">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5">
+                            <a href="index.html"><img style="margin-left:-40px ;" src="ikmages/bless_logo-removebg-preview 1.svg" alt="logo"></a>
+                            <p class="work_well">When do they work well, and when do they on us and finally,
+                                when do we actually need how can we avoid them.</p>
+                            <div class="contact-footer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="aqua" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                  </svg>
+                                <a href="tel:+1451356888">+1 451 356 888</a>
+                            </div>
+                            <div class="contact-footer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="aqua" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                  </svg>
+                                <a href="mailto:egidefiston@gmail.com">egidefiston@gmail.com</a>
+                            </div>
+                            <div class="contact-footer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="aqua" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                                  </svg>
+                                <p>121 Parkview St. California, USA</p>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3">
+                            <p class="useful-link">USEFUL LINKS</p>
+                            <div class="contact-footer">
+                                <a href="about.html">About</a>
+                            </div>
+                            <div class="contact-footer">
+                                <a href="services.html">Services</a>
+                            </div>
+                            <div class="contact-footer">
+                                <a href="portfolio.html">Portfolio</a>
+                            </div>
+                            <div class="contact-footer">
+                                <a href="blog.html">Blog</a>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4">
+                            <p class="useful-link">USEFUL LINKS</p>
+                            <div class="contact-footer">
+                                <a href="contact.html">Contact</a>
+                            </div>
+                            <div class="contact-footer">
+                                <a href="#">Privacy Policy</a>
+                            </div>
+                            <div class="contact-footer">
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright_main">
+                        <p class="copyright">© 2024 | All rights reserved by
+                            <a href="https://1.envato.market/website-portfolio" target="_blank">The_Krishna</a>
+                        </p>
+                        <div class="input-main">
+                            <input type="text" name="text" placeholder="Enter your email" autocomplete="off">
+                            <svg class="send-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g clip-path="url(#clip0_147_85)">
+                                    <path d="M10 14L21 3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M21 3L14.5 21C14.4561 21.0957 14.3857 21.1769 14.2971 21.2338C14.2084 21.2906 14.1053 21.3209 14 21.3209C13.8947 21.3209 13.7916 21.2906 13.703 21.2338C13.6143 21.1769 13.5439 21.0957 13.5 21L10 14L3.00001 10.5C2.90427 10.4561 2.82314 10.3857 2.76626 10.2971C2.70938 10.2084 2.67914 10.1053 2.67914 10C2.67914 9.89468 2.70938 9.79158 2.76626 9.70295C2.82314 9.61431 2.90427 9.54387 3.00001 9.5L21 3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_147_85">
+                                        <rect width="24" height="24" fill="white"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="desktop-itemright-footer">
+                    <div class="footer-box-right">
+                        <p class="mind-project">Have a project in your mind?</p>
+                        <div class="view-work-circle btn btn1">
+                            <a href="contact.html" class="a1">CONTACT ME</a>
+                        </div>
+                        <div>
+                            <p class="contact_time">09 : 00 AM - 10 : 30 PM</p>
+                            <p class="monday">Monday to Saturday</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="progress-wrap cursor-pointer active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="0 0 100 100">
+            <circle class="circle-bg" cx="50" cy="50" r="45" fill="none" stroke-width="10"></circle>
+            <circle class="circle-progress" cx="50" cy="50" r="45" fill="none" stroke-width="10"></circle>
+            <text class="progress-text" x="50%" y="50%" text-anchor="middle" dy=".3em">0%</text>
+        </svg>
+    </div>
+
+    <script>
+        // JavaScript to update progress dynamically based on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const circleProgress = document.querySelector('.circle-progress');
+            const textElement = document.querySelector('.progress-text');
+
+            function updateProgress() {
+                const scrollPosition = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const documentHeight = document.body.clientHeight;
+                const maxScroll = documentHeight - windowHeight;
+
+                // Calculate scroll percentage
+                const scrollPercentage = (scrollPosition / maxScroll) * 100;
+
+                // Update circle progress
+                circleProgress.style.strokeDashoffset = `calc(283.49 * (1 - ${scrollPercentage / 100}))`;
+                textElement.textContent = `${Math.round(scrollPercentage)}%`;
+
+                // Check if scrolled to the bottom (adjust threshold as needed)
+                if (scrollPosition + windowHeight >= documentHeight) {
+                    textElement.textContent = "Welcome";
+                }
+            }
+
+            // Update progress on scroll
+            window.addEventListener('scroll', updateProgress);
+        });
+    </script>
+</body>
+
+</html>
+
